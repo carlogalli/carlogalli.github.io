@@ -3,39 +3,218 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carlogalli.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/publication/</loc>
+    <loc>https://carlogalli.github.io/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://carlogalli.github.io/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/research_page/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/teaching_page/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication_types/3/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/carlo-galli/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication/galli-nominaldebt/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication_types/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/marco-bassetto/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication_types/2/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/debt-management/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/expectations/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/international-lending-and-debt-problems/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication/bassetto-galli-aer/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/national-debt/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/sovereign-debt/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/speculations/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://carlogalli.github.io/tags/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication_types/0/</loc>
+    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/discussion/</loc>
+    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/discussion/ayres-hevia-nicolini/</loc>
+    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/post/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/admin/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication/galli-debtcrisesinvestment/</loc>
+    <lastmod>2019-02-03T17:11:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/discussion/iovino-sergeyev/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/teaching_page_standalone/</loc>
+    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/tags/academic/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/categories/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/post/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/ayreshttp/www.joaoayres.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/heviahttps/sites.google.com/site/constantinohevia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/iovinohttps/sites.google.com/site/luigiiovino/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/marco-bassettohttp/users.nber.org/~bassetto/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/nicolinihttps/www.minneapolisfed.org/people/juan-pablo-nicolini/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/sergeyevhttps/sites.google.com/site/dmitriysergeyev/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/course/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/course/ucl-mres-macro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/course/ucl-msc-macro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/course/ucl-msc-moneyfinance/</loc>
   </url>
   
 </urlset>

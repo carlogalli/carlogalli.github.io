@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Sergeyev](https://sites.google.com/site/dmitriysergeyev/) | Carlo Galli</title>
+    <link>https://carlogalli.github.io/authors/sergeyevhttps/sites.google.com/site/dmitriysergeyev/</link>
+      <atom:link href="https://carlogalli.github.io/authors/sergeyevhttps/sites.google.com/site/dmitriysergeyev/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Sergeyev](https://sites.google.com/site/dmitriysergeyev/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>[Sergeyev](https://sites.google.com/site/dmitriysergeyev/)</title>
+      <link>https://carlogalli.github.io/authors/sergeyevhttps/sites.google.com/site/dmitriysergeyev/</link>
+    </image>
+    
+  </channel>
+</rss>

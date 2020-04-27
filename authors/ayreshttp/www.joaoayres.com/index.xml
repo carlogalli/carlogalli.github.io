@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Ayres](http://www.joaoayres.com/) | Carlo Galli</title>
+    <link>https://carlogalli.github.io/authors/ayreshttp/www.joaoayres.com/</link>
+      <atom:link href="https://carlogalli.github.io/authors/ayreshttp/www.joaoayres.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Ayres](http://www.joaoayres.com/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>[Ayres](http://www.joaoayres.com/)</title>
+      <link>https://carlogalli.github.io/authors/ayreshttp/www.joaoayres.com/</link>
+    </image>
+    
+  </channel>
+</rss>
