@@ -2,8 +2,8 @@
   "name": "Carlo Galli",
   "short_name": "Carlo Galli",
   "lang": "en-us",
-  "theme_color": "hsl(175, 65, 43)",
-  "background_color": "hsl(175, 65, 43)",
+  "theme_color": "#26B5A9",
+  "background_color": "#26B5A9",
   "icons": [{
     "src": "/images/icon_hu125fbe8a5bc32253d2953c7a99e94578_2096_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
