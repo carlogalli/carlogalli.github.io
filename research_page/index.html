@@ -241,6 +241,14 @@
 
   
   document.addEventListener('click', onClickCallback, false);
+
+
+  gtag('event', <action>, {
+	  'event_category': <category>,
+	  'event_label': <label>,
+	  'value': <value>
+  });
+
 </script>
 
 
@@ -582,7 +590,6 @@
 
 
 
-
 	
 
 
@@ -609,8 +616,10 @@
 	  	</div>
 	  	
 		<div class="col-12 col-lg-9">	
-						
+					
+
 			
+						
 			
 			
 
@@ -703,7 +712,7 @@
 		
 			
 		
-		<a class="btn btn-outline-primary" href="/files/slides_OXNYC.pdf" target="_blank" rel="noopener">
+		<a class="btn btn-outline-primary" href="/files/slides_OXNYC.pdf" target="_blank" rel="noopener" onClick="ga('send', 'event', { eventCategory: 'view_pdf', eventAction: 'click', eventLabel: 'test'});">
 			Slides
 		</a>
 		
@@ -790,7 +799,6 @@
 
 
 
-
 	
 
 
@@ -817,8 +825,10 @@
 	  	</div>
 	  	
 		<div class="col-12 col-lg-9">	
-						
+					
+
 			
+						
 			
 			
 
@@ -908,7 +918,7 @@
 		
 			
 		
-		<a class="btn btn-outline-primary" href="/files/Galli_JMP_slides.pdf" target="_blank" rel="noopener">
+		<a class="btn btn-outline-primary" href="/files/Galli_JMP_slides.pdf" target="_blank" rel="noopener" onClick="ga('send', 'event', { eventCategory: 'view_pdf', eventAction: 'click', eventLabel: 'test'});">
 			Slides
 		</a>
 		
@@ -1029,7 +1039,7 @@
 		
 			
 		
-		<a class="btn btn-outline-primary" href="/files/slides_ucl_summerconference.pdf" target="_blank" rel="noopener">
+		<a class="btn btn-outline-primary" href="/files/slides_ucl_summerconference.pdf" target="_blank" rel="noopener" onClick="ga('send', 'event', { eventCategory: 'view_pdf', eventAction: 'click', eventLabel: 'test'});">
 			Slides
 		</a>
 		
@@ -1116,7 +1126,6 @@
 
 
 
-
 	
 
 
@@ -1140,8 +1149,10 @@
 	  	</div>
 	  	
 		<div class="col-12 col-lg-9">	
-						
+					
+
 			
+						
 			
 			
 

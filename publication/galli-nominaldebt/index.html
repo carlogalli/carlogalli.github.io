@@ -241,6 +241,14 @@
 
   
   document.addEventListener('click', onClickCallback, false);
+
+
+  gtag('event', <action>, {
+	  'event_category': <category>,
+	  'event_label': <label>,
+	  'value': <value>
+  });
+
 </script>
 
 
@@ -662,7 +670,7 @@
 		
 			
 		
-		<a class="btn btn-outline-primary" href="/files/Galli_JMP_slides.pdf" target="_blank" rel="noopener">
+		<a class="btn btn-outline-primary" href="/files/Galli_JMP_slides.pdf" target="_blank" rel="noopener" onClick="ga('send', 'event', { eventCategory: 'view_pdf', eventAction: 'click', eventLabel: 'test'});">
 			Slides
 		</a>
 		
