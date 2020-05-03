@@ -218,6 +218,11 @@
       dataLayer.push(arguments);
   }
 
+  gtag('js', new Date());
+  gtag('config', 'UA-112614450-4', {});
+
+
+
   function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
@@ -239,18 +244,15 @@
     trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
-  gtag('js', new Date());
-  gtag('config', 'UA-112614450-4', {});
-
-  
+    
   document.addEventListener('click', onClickCallback, false);
 
 
-  gtag('event', <action>, {
-	  'event_category': <category>,
-	  'event_label': <label>,
-	  'value': <value>
-  });
+  
+	 
+	 
+	 
+  
 
 </script>
 
