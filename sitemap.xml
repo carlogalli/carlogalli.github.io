@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogalli.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogalli.github.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
@@ -13,8 +18,33 @@
   </url>
   
   <url>
-    <loc>https://carlogalli.github.io/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+    <loc>https://carlogalli.github.io/publication_types/3/</loc>
+    <lastmod>2020-10-10T17:11:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/</loc>
+    <lastmod>2020-10-10T17:11:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/carlo-galli/</loc>
+    <lastmod>2020-10-10T17:11:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication_types/</loc>
+    <lastmod>2020-10-10T17:11:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication/</loc>
+    <lastmod>2020-10-10T17:11:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/publication/galli-debtcrisesinvestment/</loc>
+    <lastmod>2020-10-10T17:11:43+01:00</lastmod>
   </url>
   
   <url>
@@ -28,32 +58,7 @@
   </url>
   
   <url>
-    <loc>https://carlogalli.github.io/publication_types/3/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/authors/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/authors/carlo-galli/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carlogalli.github.io/publication/galli-nominaldebt/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/publication_types/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/publication/</loc>
     <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -135,11 +140,6 @@
   <url>
     <loc>https://carlogalli.github.io/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/publication/galli-debtcrisesinvestment/</loc>
-    <lastmod>2019-02-03T17:11:43+01:00</lastmod>
   </url>
   
   <url>
