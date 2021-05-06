@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Carlo Galli</title>
-    <link>https://carlogalli.github.io/publication_types/2/</link>
-      <atom:link href="https://carlogalli.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    <description>2</description>
+    <title>sovereign default | Carlo Galli</title>
+    <link>https://carlogalli.github.io/tags/sovereign-default/</link>
+      <atom:link href="https://carlogalli.github.io/tags/sovereign-default/index.xml" rel="self" type="application/rss+xml" />
+    <description>sovereign default</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 17:11:43 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>2</title>
-      <link>https://carlogalli.github.io/publication_types/2/</link>
+      <title>sovereign default</title>
+      <link>https://carlogalli.github.io/tags/sovereign-default/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://carlogalli.github.io/publication/galli-debtcrisesinvestment/</link>
       <pubDate>Thu, 01 Jul 2021 17:11:43 +0100</pubDate>
       <guid>https://carlogalli.github.io/publication/galli-debtcrisesinvestment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Is Inflation Default? The Role of Information in Debt Crises</title>
-      <link>https://carlogalli.github.io/publication/bassetto-galli-aer/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://carlogalli.github.io/publication/bassetto-galli-aer/</guid>
       <description></description>
     </item>
     
