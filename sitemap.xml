@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlogalli.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogalli.github.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
@@ -68,6 +73,21 @@
   </url>
   
   <url>
+    <loc>https://carlogalli.github.io/publication_types/0/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/discussion/cole-neuhann-ordonez/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/discussion/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlogalli.github.io/publication_types/3/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url>
@@ -75,11 +95,6 @@
   <url>
     <loc>https://carlogalli.github.io/publication/gaballo-galli/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -130,16 +145,6 @@
   <url>
     <loc>https://carlogalli.github.io/tags/speculations/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/publication_types/0/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlogalli.github.io/discussion/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -197,6 +202,10 @@
   </url>
   
   <url>
+    <loc>https://carlogalli.github.io/authors/colehttps/economics.sas.upenn.edu/people/harold-l-cole/</loc>
+  </url>
+  
+  <url>
     <loc>https://carlogalli.github.io/authors/gaetano-gaballohttps/www.mwpweb.eu/gaetanogaballo/</loc>
   </url>
   
@@ -213,7 +222,15 @@
   </url>
   
   <url>
+    <loc>https://carlogalli.github.io/authors/neuhannhttp/sites.utexas.edu/danielneuhann/</loc>
+  </url>
+  
+  <url>
     <loc>https://carlogalli.github.io/authors/nicolinihttps/www.minneapolisfed.org/people/juan-pablo-nicolini/</loc>
+  </url>
+  
+  <url>
+    <loc>https://carlogalli.github.io/authors/ordonezhttps/web.sas.upenn.edu/ordonez/</loc>
   </url>
   
   <url>

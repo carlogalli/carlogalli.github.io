@@ -5,12 +5,20 @@
     <link>https://carlogalli.github.io/discussion/</link>
       <atom:link href="https://carlogalli.github.io/discussion/index.xml" rel="self" type="application/rss+xml" />
     <description>Discussions</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Discussions</title>
       <link>https://carlogalli.github.io/discussion/</link>
     </image>
+    
+    <item>
+      <title>Asymmetric Information and Sovereign Debt: Theory Meets Mexican Data</title>
+      <link>https://carlogalli.github.io/discussion/cole-neuhann-ordonez/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://carlogalli.github.io/discussion/cole-neuhann-ordonez/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Real Exchange Rates and Primary Commodity Prices</title>
