@@ -5,7 +5,7 @@
     <link>https://carlogalli.github.io/</link>
       <atom:link href="https://carlogalli.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Carlo Galli</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Carlo Galli</title>
@@ -137,7 +137,7 @@ data.head()
 1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^&lt;em&gt;) = \begin{cases} p_0^&lt;/em&gt; &amp;amp; \text{if }k=1, \&lt;br&gt;
+&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
 1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
 &lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
 &lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
@@ -416,7 +416,7 @@ date: 2019-09-01
 &lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
 &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
 &lt;ul&gt;
 &lt;li&gt;☕️ 
 &lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -530,6 +530,24 @@ date: 2019-09-01
 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the 
 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://carlogalli.github.io/authors/admin/_index-old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://carlogalli.github.io/authors/admin/_index-old/</guid>
+      <description>&lt;p&gt;Welcome!&lt;/p&gt;
+&lt;p&gt;I am a Postdoctoral Researcher at 
+&lt;a href=&#34;https://www.sciencespo.fr/department-economics/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SciencesPo&lt;/a&gt;, working under the 
+&lt;a href=&#34;https://www.sciencespo.fr/psia/chair-sovereign-debt.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chair in Sovereign Debt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In 2021, I will join 
+&lt;a href=&#34;http://economics.uc3m.es/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Universidad Carlos III de Madrid&lt;/a&gt; as an Assistant Professor in the Department of Economics.&lt;/p&gt;
+&lt;p&gt;I obtained a PhD in Economics from 
+&lt;a href=&#34;http://www.ucl.ac.uk/economics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UCL&lt;/a&gt; in 2020.&lt;/p&gt;
+ &lt;!-- and I am a member of the [Centre for Macroeconomics](http://www.centreformacroeconomics.ac.uk/Home.aspx).  --&gt;
+&lt;p&gt;My research interests are in macroeconomics, international finance and information economics. My work studies fiscal and monetary policy, with a particular focus on sovereign debt crises and default risk.&lt;/p&gt;
 </description>
     </item>
     
