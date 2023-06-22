@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Maggiori](https://www.matteomaggiori.com/) | Carlo Galli</title>
+    <link>https://carlogalli.github.io/authors/maggiorihttps/www.matteomaggiori.com/</link>
+      <atom:link href="https://carlogalli.github.io/authors/maggiorihttps/www.matteomaggiori.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Maggiori](https://www.matteomaggiori.com/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>[Maggiori](https://www.matteomaggiori.com/)</title>
+      <link>https://carlogalli.github.io/authors/maggiorihttps/www.matteomaggiori.com/</link>
+    </image>
+    
+  </channel>
+</rss>
