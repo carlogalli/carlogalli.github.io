@@ -2,7 +2,7 @@ baseURL = 'http://carlogalli.github.io/'
 languageCode = 'en-gb'
 title = 'Carlo Galli'
 theme = 'xmin'
-
+publishDir = 'public'
 
 [params]
   [params.theme_config]
