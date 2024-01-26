@@ -1,2 +1,1 @@
-# website-xmin
- repo of website with xmin theme
+repo of website with xmin theme
