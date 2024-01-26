@@ -1,0 +1,111 @@
+:root {
+/*  --common-color: #26b5a9;*/
+/*  --common-color: #2596be;*/
+/*  --common-color: black;*/
+  --common-color: blue;
+/*  --common-color: green;*/
+
+/*  --common-color: #25beb3;*/
+/*  --common-color: #1e988f;   20% darker */
+/*--common-color: #25babe;*/
+
+}
+
+
+body {
+  max-width: 900px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+/* header and footer areas */
+.menu, footer { text-align: center; }
+.title { font-size: 1.1em; }
+
+/* misc elements */
+img, iframe, video { max-width: 100%; }
+main { hyphens: auto; }
+
+.paper-title {
+/*  color: var(--common-color);*/
+/*  font-size: 105%;*/
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.paper-abstract {
+  font-size: 80%;
+  font-style: italic;
+  color: gray;
+}
+.paper-journal {
+  font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  color: var(--common-color);
+}
+a:visited {
+  color: var(--common-color);
+/*  text-decoration-color: hotpink;*/
+}
+
+.paper-status, .paper-date {
+  font-style: italic;
+}
+
+.paper-links a {
+  font-size: 90%;
+/*  font-weight: 600;*/
+/*  color: var(--common-color);*/
+  margin-right: 5px;
+  /*text-decoration: none;  
+  padding: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--common-color);
+  border-width: 1px;
+  display:inline-block;
+  margin-top: 0.3em;*/
+}
+
+.profile-links a {
+  color: var(--common-color);
+  font-weight: bold;
+  text-decoration: none;
+  background: white;
+  padding: 4px;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: var(--common-color);
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.profile-icons a {
+/*  color: var(--common-color);*/
+  font-size: 150%;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+a.author {
+/*  color: var(--common-color);*/
+/*  text-decoration: none;*/
+}
+img {
+  border-radius: 50%;
+  max-width: 33%;
+  min-width: 40px;
+/*  float: left;*/
+/*  margin-right: 40px;*/
+/*  margin-bottom: 40px;*/
+}
+
+li {
+  margin-bottom: 2em;
+}

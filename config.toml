@@ -1,0 +1,14 @@
+baseURL = 'http://carlogalli.github.io/'
+languageCode = 'en-gb'
+title = 'Carlo Galli'
+theme = 'xmin'
+
+
+[params]
+  [params.theme_config]
+#	show_description = true
+#	appearance = "light"
+
+[markup.goldmark.renderer]
+  unsafe = true               # Allow HTML in md files
+  

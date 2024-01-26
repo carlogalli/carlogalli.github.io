@@ -1,2 +1,2 @@
-# carlogalli.github.io
-website host
+# website-xmin
+ repo of website with xmin theme
