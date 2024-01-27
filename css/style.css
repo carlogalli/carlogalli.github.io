@@ -73,6 +73,10 @@ a:visited {
   margin-top: 0.3em;*/
 }
 
+/*.useful-links a {
+  font-size: 200%;
+}*/
+
 .profile-links a {
   color: var(--common-color);
   font-weight: bold;
@@ -91,6 +95,11 @@ a:visited {
   font-size: 150%;
   text-decoration: none;
   margin-right: 1em;
+}
+
+.profile-stuff {
+  font-size: 50%;
+  color: red;
 }
 
 a.author {
