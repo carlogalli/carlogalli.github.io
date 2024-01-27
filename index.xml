@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carlo Galli</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Carlo Galli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 25 Aug 2022 21:30:04 +0800</lastBuildDate>
+    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Hugo XMin</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/about/</guid>
+      <description>XMin is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the blogdown book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal.</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://example.org/cv-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/cv-page/</guid>
+      <description>Last updated: June 2023
+CV in pdf version
+Contact Department of Economics
+Universidad Carlos III de Madrid
+Calle Madrid 126
+28903 Getafe, Spain
+https://carlogalli.github.io
+cgalli@eco.uc3m.es
+Academic Positions Universidad Carlos III de Madrid, Assistant Professor of Economics
+2021 –
+Sciences Po Paris, Chair in Sovereign Debt, Postdoctoral Researcher
+2020 – 2021
+Education 2015 – 2020 PhD in Economics, University College London
+Advisors: Marco Bassetto (primary) and Wei Cui
+Thesis: “Essays on Macroeconomics and Sovereign Default”</description>
+    </item>
+  </channel>
+</rss>
