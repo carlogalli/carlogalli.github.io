@@ -11,6 +11,10 @@
 
 }
 
+.hidden {
+  display: none;
+}
+
 
 body {
   max-width: 900px;
