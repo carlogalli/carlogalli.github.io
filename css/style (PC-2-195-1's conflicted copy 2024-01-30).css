@@ -11,6 +11,7 @@
 
 }
 
+
 body {
   max-width: 900px;
   margin: auto;
@@ -55,25 +56,6 @@ a:visited {
   font-style: italic;
 }
 
-details {
-  display: inline;
-}
-details summary {
-  display: inline;
-  cursor: pointer;
-}
-details summary > * {
-  display: inline;
-}
-summary {
-  list-style: none;
-  font-size: 90%;
-  text-decoration: underline;
-  list-style-position: outside;
-  padding-left: 0px;
-  margin-left: 0px;
-}
-
 .paper-links a {
   font-size: 90%;
 /*  font-weight: 600;*/
@@ -91,8 +73,17 @@ summary {
   margin-top: 0.3em;*/
 }
 
-.useful-links a {
-  font-size: 100%;
+.profile-links a {
+  color: var(--common-color);
+  font-weight: bold;
+  text-decoration: none;
+  background: white;
+  padding: 4px;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: var(--common-color);
+  border-width: 1px;
+  border-radius: 8px;
 }
 
 .profile-icons a {
@@ -101,8 +92,6 @@ summary {
   text-decoration: none;
   margin-right: 1em;
 }
-
-
 
 a.author {
 /*  color: var(--common-color);*/
@@ -119,22 +108,4 @@ img {
 
 li {
   margin-bottom: 2em;
-}
-
-
-
-
-/**/
-.modal {
-  display: none;
-  width: 80%;
-/*  height: 100px;*/
-  margin-bottom: 2em;
-  text-align: justify;
-}
-
-.modal:target {
-  display: block;
-/*  display: inline;*/
-/*  background-color: gold;*/
 }
