@@ -6,18 +6,17 @@
     <description>Recent content on Carlo Galli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 01 Jan 2024 21:30:04 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 21:30:04 +0800</lastBuildDate>
+    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://example.org/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/test/</guid>
       <description>Ciao!
 Markdown title Markdown subtitle level 3 Normal text
 abcasdas Click to Trigger The Modal asdkajshdaskl
 I am a Hidden ModalClose the Modal</description>
     </item>
-    
   </channel>
 </rss>
