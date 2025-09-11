@@ -4,7 +4,7 @@
     <title>Categories on Carlo Galli</title>
     <link>http://example.org/categories/</link>
     <description>Recent content in Categories on Carlo Galli</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
     <atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
