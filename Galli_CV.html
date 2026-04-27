@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carlo Galli</title>
+    <style type="text/css">:root {
+--page-width: 210mm;
+--page-padding-x: 16mm;
+--page-padding-y: 14mm;
+--font-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+--font-sans: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+--color-ink: #18211c;
+--color-muted: #5c665d;
+--color-accent: #0e5b42;
+--color-line: #d9e1d9;
+--color-paper: #ffffff;
+--color-backdrop: #eef2ec;
+--base-size: 10pt;
+--line-height: 1.36;
+--section-gap: 1.8rem;
+--item-gap: 0.3rem;
+--date-column-width: 7rem;
+--date-column-gap: 0.5rem;
+}
+* {
+box-sizing: border-box;
+}
+html {
+font-size: var(--base-size);
+}
+body {
+margin: 0;
+color: var(--color-ink);
+font-family: var(--font-serif);
+line-height: var(--line-height);
+background:
+radial-gradient(circle at top left, rgba(14, 91, 66, 0.07), transparent 28%),
+linear-gradient(180deg, #f5f7f2 0%, var(--color-backdrop) 100%);
+}
+.cv-page {
+width: min(100%, var(--page-width));
+margin: 2rem auto;
+padding: var(--page-padding-y) var(--page-padding-x);
+background: var(--color-paper);
+}
+.cv-header {
+display: grid;
+grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+gap: 1.5rem;
+align-items: start;
+margin-bottom: 1.1rem;
+padding-bottom: 1rem;
+
+}
+.cv-identity h1 {
+margin: 0;
+font-family: var(--font-sans);
+font-size: 2rem;
+font-weight: 700;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+}
+.cv-subtitle {
+margin: 0.35rem 0 0;
+color: var(--color-accent);
+font-family: var(--font-sans);
+font-size: 0.82rem;
+font-weight: 600;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+}
+.cv-updated {
+margin: 0.8rem 0 0;
+color: var(--color-muted);
+font-family: var(--font-sans);
+font-size: 0.82rem;
+}
+.cv-contact p {
+margin: 0.16rem 0;
+text-align: right;
+}
+h2,
+h3,
+p,
+ul,
+ol {
+break-inside: avoid;
+}
+h2 {
+margin: var(--section-gap) 0 0.45rem;
+padding-top: 0.3rem;
+color: var(--color-accent);
+font-family: var(--font-sans);
+font-size: 0.88rem;
+font-weight: 700;
+letter-spacing: 0.14em;
+text-transform: uppercase;
+border-top: 1px solid var(--color-line);
+}
+h3 {
+margin: 0.7rem 0 0.25rem;
+color: var(--color-muted);
+font-family: var(--font-sans);
+font-size: 0.78rem;
+font-weight: 700;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+p {
+margin: 0.35rem 0;
+}
+.caption {
+font-size: 0.85rem;
+color: var(--color-muted);
+}
+ul {
+margin: 0.35rem 0 0.65rem;
+padding: 0;
+list-style: none;
+}
+li {
+margin: var(--item-gap) 0;
+}
+li strong {
+color: var(--color-accent);
+font-family: var(--font-sans);
+font-size: 0.9em;
+font-weight: 700;
+}
+dl {
+display: grid;
+grid-template-columns: var(--date-column-width) minmax(0, 1fr);
+column-gap: var(--date-column-gap);
+row-gap: 0.35rem;
+margin: 0.35rem 0 0.75rem;
+}
+dt,
+dd {
+margin: 0;
+}
+dt {
+grid-column: 1;
+}
+dd {
+grid-column: 2;
+min-width: 0;
+}
+dd > :first-child {
+margin-top: 0;
+}
+dd > :last-child {
+margin-bottom: 0;
+}
+a {
+color: inherit;
+text-decoration: none;
+border-bottom: 1px solid rgba(14, 91, 66, 0.35);
+}
+a:hover {
+color: var(--color-accent);
+border-bottom-color: currentColor;
+}
+em {
+color: var(--color-muted);
+}
+@page {
+size: A4;
+margin: 12mm 14mm;
+}
+@media print {
+body {
+background: #ffffff;
+}
+.cv-page {
+width: auto;
+margin: 0;
+padding: 0;
+}
+a {
+border-bottom: none;
+}
+}
+</style>
+    <link href="data:text/css,%2Ecv%2Dpage%20%7B%0Abox%2Dshadow%3A%200%2018px%2048px%20rgba%2824%2C%2033%2C%2028%2C%200%2E12%29%3B%0A%7D%0A%40media%20%28max%2Dwidth%3A%20500px%29%20%7B%0A%2Ecv%2Dpage%20%7B%0Amargin%3A%200%3B%0Awidth%3A%20100%25%3B%0Apadding%3A%201%2E25rem%3B%0Abox%2Dshadow%3A%20none%3B%0A%7D%0A%2Ecv%2Dheader%20%7B%0Agrid%2Dtemplate%2Dcolumns%3A%201fr%3B%0A%7D%0A%2Ecv%2Dcontact%20p%20%7B%0Atext%2Dalign%3A%20left%3B%0A%7D%0Adl%20%7B%0Agrid%2Dtemplate%2Dcolumns%3A%201fr%3B%0Arow%2Dgap%3A%200%2E1rem%3B%0A%7D%0Add%20%7B%0Agrid%2Dcolumn%3A%201%3B%0Amargin%2Dbottom%3A%200%2E45rem%3B%0A%7D%0A%7D%0A" rel="stylesheet" media="screen">
+  </head>
+<body>
+  <main class="cv-page">
+    <header class="cv-header">
+      <div class="cv-identity">
+        <h1>Carlo Galli</h1>
+        <p class="cv-subtitle">Curriculum Vitae</p>
+        <p class="cv-updated">Last updated: April 2026</p>
+      </div>
+      <div class="cv-contact">
+        <p>Department of Economics</p>
+        <p>Universidad Carlos III de Madrid</p>
+        <p>Calle Madrid 126</p><p>28903 Getafe, Spain</p>
+        <p><a href="https://carlogalli.github.io">https://carlogalli.github.io</a></p>
+        <p><a href="mailto:cgalli@eco.uc3m.es">cgalli@eco.uc3m.es</a></p>
+      </div>
+    </header>
+    <section class="cv-content">
+<h2 id="academic-positions">Academic Positions</h2>
+<dl>
+<dt>2021 –</dt>
+<dd>
+Universidad Carlos III de Madrid, Assistant Professor of Economics.
+</dd>
+<dt>2020 – 2021</dt>
+<dd>
+Sciences Po Paris, Chair in Sovereign Debt, Postdoctoral Researcher.
+</dd>
+<dt>2024 –</dt>
+<dd>
+CEPR Research Affiliate, MEF and IMF programs.
+</dd>
+</dl>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2015 – 2020</dt>
+<dd>
+PhD in Economics, University College London. Advisors: Marco Bassetto
+(primary) and Wei Cui. Thesis: “Essays on Macroeconomics and Sovereign
+Default”.
+</dd>
+<dt>2014 – 2015</dt>
+<dd>
+MRes in Economics, University College London. Distinction.
+</dd>
+<dt>2009 – 2011</dt>
+<dd>
+MSc in Economics, Bocconi University, Milan (Italy). Distinction.
+</dd>
+<dt>2006 – 2009</dt>
+<dd>
+BSc in Finance, Bocconi University, Milan (Italy). Distinction.
+</dd>
+</dl>
+<h2 id="research-fields">Research Fields</h2>
+<p>Macroeconomics, International Finance, Information Economics.</p>
+<h2 id="publications">Publications</h2>
+<ul>
+<li>“Is Inflation Default? The Role of Information in Debt Crises” (with
+Marco Bassetto).<br />
+<strong><em>American Economic Review</em></strong>, <em>October 2019,
+vol. 109, no. 10, pp. 3556-84.</em></li>
+<li>“Self-Fulfilling Debt Crises, Fiscal Policy and Investment”.<br />
+<strong><em>Journal of International Economics</em></strong>, <em>July
+2021, vol. 131, p. 103475.</em></li>
+</ul>
+<h2 id="working-papers">Working Papers</h2>
+<ul>
+<li>“Inflation, Default Risk, and Nominal Debt”.<br />
+<em>Revise &amp; Resubmit at the</em> <strong><em>Journal of
+International Economics</em></strong>.</li>
+<li>“Asset Purchases and Heterogeneous Beliefs” (with Gaetano
+Gaballo).<br />
+<em>Revise &amp; Resubmit at the</em> <strong><em>American Economic
+Review</em></strong>.</li>
+<li>“Majority Voting in Sovereign Restructurings: The Aggregation
+Dilemma” (with Stéphane Guibaud).<br />
+<em>Revise &amp; Resubmit at the</em> <strong><em>Journal of Financial
+Economics</em></strong>.</li>
+</ul>
+<h2 id="policy-papers">Policy Papers</h2>
+<ul>
+<li>“Debt for Health Report” (with Stéphane Guibaud), June 2021.</li>
+</ul>
+<h2 id="teaching-experience">Teaching Experience</h2>
+<dl>
+<dt>2021 –</dt>
+<dd>
+Macroeconomics II (PhD), UC3M.
+</dd>
+<dt>2024 – 2025</dt>
+<dd>
+Topics in Macroeconomics (PhD), UC3M.
+</dd>
+<dt>2022 – 2023</dt>
+<dd>
+International Trade (BSc), UC3M.
+</dd>
+</dl>
+<h3 id="graduate-ucl">Graduate (UCL)</h3>
+<dl>
+<dt>2015 – 2020</dt>
+<dd>
+Macroeconomics (MSc), UCL, TA for Vincent Sterk.
+</dd>
+<dt>2019 – 2020</dt>
+<dd>
+Topics in Money and Finance (MSc), UCL, TA for Antonio Guarino.
+</dd>
+<dt>2016 – 2017</dt>
+<dd>
+Macroeconomics (1st year PhD), UCL, TA for Wei Cui, Victor Ríos Rull.
+</dd>
+</dl>
+<h2 id="previous-employment">Previous Employment</h2>
+<dl>
+<dt>2018 – 2020</dt>
+<dd>
+Research Assistant to Prof. Wei Cui.
+</dd>
+<dt>2017</dt>
+<dd>
+Research Assistant to Prof. Vincent Sterk.
+</dd>
+<dt>2012 – 2014</dt>
+<dd>
+Fixed-Income Trader, Inflation and Govt Bond Trading Desks, Goldman
+Sachs, London.
+</dd>
+<dt>2011</dt>
+<dd>
+Summer Intern, Securities Division, Goldman Sachs, London.
+</dd>
+</dl>
+<h2 id="invited-seminars-and-workshops">Invited Seminars and
+Workshops</h2>
+<p class="caption">
+(* = scheduled)
+</p>
+<dl>
+<dt>2025</dt>
+<dd>
+ESM; Hitotsubashi (virtual); Bologna.
+</dd>
+<dt>2024</dt>
+<dd>
+Sciences Po-Banque de France Research Seminar; Mannheim; Fed Board;
+Padova; 2nd “Rethinking sovereign debt sustainability and crises” Mini
+Conference, EUI.
+</dd>
+<dt>2023</dt>
+<dd>
+Bicocca di Milano; Oxford; 1st “Rethinking sovereign debt sustainability
+and crises” Mini Conference, EUI.
+</dd>
+<dt>2022</dt>
+<dd>
+EIEF; SciencesPo Summer Macro Workshop; Toulouse School of Economics;
+Alicante; Tinbergen Institute.
+</dd>
+<dt>2021</dt>
+<dd>
+CEMFI.
+</dd>
+<dt>2020</dt>
+<dd>
+Banco de España; EIEF; Carlos III de Madrid; Sciences Po; Banque de
+France; Bologna; Cambridge; Stony Brook; ECB PhD Candidates Workshop.
+</dd>
+<dt>2017 – 2019</dt>
+<dd>
+Chicago Fed; Autonoma de Barcelona (ENTER Seminar); Carlos III de Madrid
+(ENTER Seminar).
+</dd>
+</dl>
+<h2 id="conferences-and-workshops">Conferences and Workshops</h2>
+<p class="caption">
+(* = scheduled)
+</p>
+<dl>
+<dt>2025</dt>
+<dd>
+32nd CEPR ESSIM, Tarragona (discussant); Oxford International
+Macroeconomics Workshop (discussant); SAET 2025, Ischia; 1st Banca
+d’Italia Annual Research Conference on Monetary Policy, Rome; UC3M Micro
+Retreat, Madrid; Sveriges Riksbank conference on “New Challenges for
+Monetary-Fiscal Policy Interactions” (discussant).
+</dd>
+<dt>2024</dt>
+<dd>
+31st CEPR ESSIM, Paris; DebtCon 7, Paris; ADEMU Workshop, BSE Summer
+Forum; UCL PhD Alumni Conference, London; 3rd Public Debt Management
+Conference, Washington DC; Spanish Economic Association Symposium, Palma
+de Mallorca; 3rd XAmsterdam Macroeconomic Workshop.
+</dd>
+<dt>2023</dt>
+<dd>
+30th CEPR ESSIM, Tarragona (discussant); International Finance and
+Macro, BSE Summer Forum; Expectations in Dynamic Macro Models, BSE
+Summer Forum; SED Cartagena; Spanish Economic Association Symposium,
+Salamanca.
+</dd>
+<dt>2022</dt>
+<dd>
+Theories and Methods in Macroeconomics, London; DebtCon 5, Florence;
+International Macroeconomics Workshop, Leuven Summer Event; 16th
+CSEF-IGIER Symposium on Economics and Institutions, Capri; 5th Workshop
+of the Spanish Macroeconomics Networks, Barcelona; Spanish Economic
+Association Symposium, Valencia.
+</dd>
+<dt>2021</dt>
+<dd>
+Information Asymmetries in Financial Markets, BSE Summer Forum
+(discussant); SED Minneapolis; Banque de France and CEPR Joint
+Conference on Monetary Policy, Fiscal Policy and Public Debt in a Post
+Covid World, Paris; Spanish Economic Association Symposium, Barcelona.
+</dd>
+<dt>2020</dt>
+<dd>
+ADEMU Workshop, BSE Summer Forum.
+</dd>
+<dt>2019</dt>
+<dd>
+Econometric Society European Winter Meeting, Rotterdam; Salento Macro
+Meetings (discussant).
+</dd>
+<dt>2018</dt>
+<dd>
+ADEMU Final Conference, EUI; Economics and Finance PhD Student Workshop,
+Queen Mary University of London; Salento Macro Meetings (discussant).
+</dd>
+<dt>2017</dt>
+<dd>
+ADEMU Summer School, Toulouse; NBER Summer Institute MEFM; Econometric
+Society Summer Meeting, Lisbon; Doctoral Workshop on Quantitative
+Dynamic Economics, Madrid.
+</dd>
+</dl>
+<h2 id="scholarships-and-awards">Scholarships and Awards</h2>
+<dl>
+<dt>2024 – 2030</dt>
+<dd>
+Ramón y Cajal, Ministerio de Ciencia e Innovación, fellowship, 252k EUR.
+</dd>
+<dt>2023</dt>
+<dd>
+Fundación Ramón Areces, Ayudas a la Investigación en Ciencias Sociales,
+research grant, 36k EUR.
+</dd>
+<dt>2021 – 2025</dt>
+<dd>
+PID2021-122931NB-I00, Ministerio de Ciencia e Innovación (with PI Evi
+Pappa), research grant, 45k EUR.
+</dd>
+<dt>2021 – 2023</dt>
+<dd>
+Juan de la Cierva-Formación, Ministerio de Ciencia e Innovación,
+fellowship, 52k EUR.
+</dd>
+<dt>2015 – 2018</dt>
+<dd>
+Economic and Social Research Council (ESRC) studentship, UCL.
+</dd>
+<dt>2009 – 2011</dt>
+<dd>
+MSc Graduate Merit Award Scholarship, Bocconi University.
+</dd>
+<dt>2019</dt>
+<dd>
+Best Teaching Assistant Award, Teaching on a MSc core module, UCL.
+</dd>
+</dl>
+<h2 id="refereeing-activity">Refereeing Activity</h2>
+<p>Journals: Econometrica; American Economic Review; Review of Economic
+Studies; American Economic Journal: Macroeconomics; Journal of the
+European Economic Association; Quantitative Economics; Journal of
+International Economics; Review of Economic Dynamics; Journal of
+Economic Theory; Economic Journal; European Economic Review; Journal of
+Money, Credit and Banking; Macroeconomic Dynamics.</p>
+<p>Grants: ERC Consolidator Grant; Fondecyt National Projects
+Competition (Chile).</p>
+<h2 id="public-and-departmental-service">Public and Departmental
+Service</h2>
+<dl>
+<dt>2021 – 2025</dt>
+<dd>
+Co-organiser, UC3M Macro seminar.
+</dd>
+<dt>2022 – 2025</dt>
+<dd>
+Program Committee (International Economics), EEA Annual Congress.
+</dd>
+<dt>2022</dt>
+<dd>
+Co-organiser, Salento Macro Meetings.
+</dd>
+<dt>2024</dt>
+<dd>
+Co-organiser, UCL Economics PhD Alumni Conference.
+</dd>
+<dt>2024 –</dt>
+<dd>
+Co-organiser, Doctoral Workshop on Quantitative Dynamic Economics.
+</dd>
+<dt>2025</dt>
+<dd>
+Co-organiser, VIII MadMac Annual Conference.
+</dd>
+</dl>
+<h2 id="languages">Languages</h2>
+<p>Italian (native), English (fluent), Spanish (fluent).</p>
+<h2 id="personal">Personal</h2>
+<p>Born in Padova, Italy on June 6th, 1987. Italian and British
+citizen.</p>
+    </section>
+  </main>
+</body>
+</html>
