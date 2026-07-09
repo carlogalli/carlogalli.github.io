@@ -31,7 +31,7 @@ main { hyphens: auto; }
 /*  font-size: 105%;*/
   font-size: 16px;
   font-weight: 500;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .paper-abstract {
   font-size: 80%;
@@ -121,7 +121,10 @@ li {
   margin-bottom: 2em;
 }
 
-
+.work-in-progress li {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
 
 
 /**/
