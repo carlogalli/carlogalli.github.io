@@ -55,6 +55,12 @@ a:visited {
   font-style: italic;
 }
 
+.submission-status {
+  color: green;
+  /* text-decoration: underline; */
+  font-style: italic;
+}
+
 details {
   display: inline;
 }
