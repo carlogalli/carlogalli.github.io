@@ -21,6 +21,10 @@
 --line-height: 1.36;
 --section-gap: 1.8rem;
 --item-gap: 0.3rem;
+--paper-entry-gap: 1.35rem;
+--paper-abstract-size: 0.88rem;
+--paper-abstract-line-height: 1.28;
+--paper-abstract-style: italic;
 --date-column-width: 7rem;
 --date-column-gap: 0.5rem;
 }
@@ -128,6 +132,57 @@ color: var(--color-accent);
 font-family: var(--font-sans);
 font-size: 0.9em;
 font-weight: 700;
+}
+#publications + ul li,
+#publicaciones + ul li,
+#working-papers + ul li,
+#artículos-de-trabajo + ul li,
+#working-papers + ul + .manual-page-break + ul li,
+#artículos-de-trabajo + ul + .manual-page-break + ul li,
+#policy-papers + ul li,
+#informes-de-política-económica + ul li {
+margin: var(--item-gap) 0 var(--paper-entry-gap);
+}
+#publications + ul,
+#publicaciones + ul,
+#working-papers + ul,
+#artículos-de-trabajo + ul,
+#working-papers + ul + .manual-page-break + ul,
+#artículos-de-trabajo + ul + .manual-page-break + ul,
+#policy-papers + ul,
+#informes-de-política-económica + ul,
+#publications + ul li,
+#publicaciones + ul li,
+#working-papers + ul li,
+#artículos-de-trabajo + ul li,
+#working-papers + ul + .manual-page-break + ul li,
+#artículos-de-trabajo + ul + .manual-page-break + ul li,
+#policy-papers + ul li,
+#informes-de-política-económica + ul li {
+break-inside: auto;
+}
+.manual-page-break {
+break-after: page;
+page-break-after: always;
+height: 0;
+}
+
+#publications + ul li > p + p,
+#publicaciones + ul li > p + p,
+#working-papers + ul li > p + p,
+#artículos-de-trabajo + ul li > p + p,
+#working-papers + ul + .manual-page-break + ul li > p + p,
+#artículos-de-trabajo + ul + .manual-page-break + ul li > p + p,
+#policy-papers + ul li > p + p,
+#informes-de-política-económica + ul li > p + p {
+margin-top: 0.2rem;
+font-size: var(--paper-abstract-size);
+font-style: var(--paper-abstract-style);
+line-height: var(--paper-abstract-line-height);
+color: var(--color-muted);
+break-inside: auto;
+orphans: 2;
+widows: 2;
 }
 dl {
 display: grid;
@@ -364,6 +419,10 @@ Chicago Fed; Autonoma de Barcelona (ENTER Seminar); Carlos III de Madrid
 (* = scheduled)
 </p>
 <dl>
+<dt>2026</dt>
+<dd>
+International Finance and Macro, BSE Summer Forum; SED Athens.
+</dd>
 <dt>2025</dt>
 <dd>
 32nd CEPR ESSIM, Tarragona (discussant); Oxford International
@@ -433,7 +492,12 @@ Ramón y Cajal, Ministerio de Ciencia e Innovación, fellowship, 252k EUR.
 Fundación Ramón Areces, Ayudas a la Investigación en Ciencias Sociales,
 research grant, 36k EUR.
 </dd>
-<dt>2021 – 2025</dt>
+<dt>2024 – 2027</dt>
+<dd>
+PID2024-158085NB-I00, Ministerio de Ciencia e Innovación (with PIs
+Yurdagul and Wellschmied), research grant, 65k EUR.
+</dd>
+<dt>2022 – 2025</dt>
 <dd>
 PID2021-122931NB-I00, Ministerio de Ciencia e Innovación (with PI Evi
 Pappa), research grant, 45k EUR.
@@ -472,7 +536,7 @@ Service</h2>
 <dd>
 Co-organiser, UC3M Macro seminar.
 </dd>
-<dt>2022 – 2025</dt>
+<dt>2022 – 2024</dt>
 <dd>
 Program Committee (International Economics), EEA Annual Congress.
 </dd>
