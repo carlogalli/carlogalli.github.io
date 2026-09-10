@@ -114,13 +114,16 @@ a.author {
 /*  color: var(--common-color);*/
 /*  text-decoration: none;*/
 }
-img {
-  border-radius: 50%;
+/* img {
+  border-radius: 0%;
   max-width: 33%;
   min-width: 40px;
-/*  float: left;*/
-/*  margin-right: 40px;*/
-/*  margin-bottom: 40px;*/
+} */
+img {
+  width: 30%; 
+  aspect-ratio: 1; 
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 li {
