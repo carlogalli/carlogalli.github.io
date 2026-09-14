@@ -222,9 +222,19 @@ color: var(--color-muted);
 }
 @page {
 size: A4;
-margin: 12mm 14mm;
+margin: 12mm 14mm 9mm;
 }
 @media print {
+
+.cv-content,
+.cv-content * {
+margin-break: discard;
+}
+
+dd {
+orphans: 1;
+widows: 2;
+}
 body {
 background: #ffffff;
 }
@@ -246,7 +256,7 @@ border-bottom: none;
       <div class="cv-identity">
         <h1>Carlo Galli</h1>
         <p class="cv-subtitle">Curriculum Vitae</p>
-        <p class="cv-updated">Last updated: April 2026</p>
+        <p class="cv-updated">Last updated: September 2026</p>
       </div>
       <div class="cv-contact">
         <p>Department of Economics</p>
@@ -297,20 +307,21 @@ BSc in Finance, Bocconi University, Milan (Italy). Distinction.
 <p>Macroeconomics, International Finance, Information Economics.</p>
 <h2 id="publications">Publications</h2>
 <ul>
+<li>“The Role of Dispersed Information in Maintaining Low Interest
+Rates” (with Marco Bassetto and Jason Hall). <strong><em>Journal of
+Macroeconomics</em></strong> <em>(special issue on “Fiscal Policy,
+Monetary Policy, and Debt Sustainability”), forthcoming</em>.</li>
+<li>“Self-Fulfilling Debt Crises, Fiscal Policy and Investment”.<br />
+<strong><em>Journal of International Economics</em></strong>, <em>July
+2021, vol. 131, p. 103475.</em></li>
 <li>“Is Inflation Default? The Role of Information in Debt Crises” (with
 Marco Bassetto).<br />
 <strong><em>American Economic Review</em></strong>, <em>October 2019,
 vol. 109, no. 10, pp. 3556-84.</em></li>
-<li>“Self-Fulfilling Debt Crises, Fiscal Policy and Investment”.<br />
-<strong><em>Journal of International Economics</em></strong>, <em>July
-2021, vol. 131, p. 103475.</em></li>
 </ul>
 <h2 id="working-papers">Working Papers</h2>
 <ul>
-<li>“Inflation, Default Risk, and Nominal Debt”.<br />
-<em>Revise &amp; Resubmit at the</em> <strong><em>Journal of
-International Economics</em></strong>.</li>
-<li>“Asset Purchases and Heterogeneous Beliefs” (with Gaetano
+<li>“The Information Channel of Asset Purchases” (with Gaetano
 Gaballo).<br />
 <em>Revise &amp; Resubmit at the</em> <strong><em>American Economic
 Review</em></strong>.</li>
@@ -318,10 +329,22 @@ Review</em></strong>.</li>
 Dilemma” (with Stéphane Guibaud).<br />
 <em>Revise &amp; Resubmit at the</em> <strong><em>Journal of Financial
 Economics</em></strong>.</li>
+<li>“Inflation, Default Risk, and Nominal Debt”.<br />
+<em>Revise &amp; Resubmit at the</em> <strong><em>Journal of
+International Economics</em></strong>.</li>
+</ul>
+<h2 id="work-in-progress">Work in Progress</h2>
+<ul>
+<li>“Official Lending in Sovereign Crises” (with Aitor Erce and Emir
+Yurdagul).</li>
+<li>“Debt and Defence” (with Sergio de Ferra and Anna
+Rogantini-Picco).</li>
 </ul>
 <h2 id="policy-papers">Policy Papers</h2>
 <ul>
-<li>“Debt for Health Report” (with Stéphane Guibaud), June 2021.</li>
+<li>“Debt for Health Report” (with Stéphane Guibaud), June 2021.<br />
+<em>Commissioned by the Health Advisory Service of the European
+Commission’s DG for International Partnerships</em>.</li>
 </ul>
 <h2 id="teaching-experience">Teaching Experience</h2>
 <dl>
@@ -365,8 +388,8 @@ Research Assistant to Prof. Vincent Sterk.
 </dd>
 <dt>2012 – 2014</dt>
 <dd>
-Fixed-Income Trader, Inflation and Govt Bond Trading Desks, Goldman
-Sachs, London.
+Fixed-Income Trader, Inflation and Government Bond Trading Desks,
+Goldman Sachs, London.
 </dd>
 <dt>2011</dt>
 <dd>
@@ -379,6 +402,10 @@ Workshops</h2>
 (* = scheduled)
 </p>
 <dl>
+<dt>2026</dt>
+<dd>
+ESCP Madrid*.
+</dd>
 <dt>2025</dt>
 <dd>
 ESM; Hitotsubashi (virtual); Bologna.
@@ -523,10 +550,11 @@ Best Teaching Assistant Award, Teaching on a MSc core module, UCL.
 <h2 id="refereeing-activity">Refereeing Activity</h2>
 <p>Journals: Econometrica; American Economic Review; Review of Economic
 Studies; American Economic Journal: Macroeconomics; Journal of the
-European Economic Association; Quantitative Economics; Journal of
-International Economics; Review of Economic Dynamics; Journal of
-Economic Theory; Economic Journal; European Economic Review; Journal of
-Money, Credit and Banking; Macroeconomic Dynamics.</p>
+European Economic Association; Journal of Monetary Economics;
+Quantitative Economics; Journal of International Economics; Review of
+Economic Dynamics; Journal of Economic Theory; Economic Journal;
+European Economic Review; Journal of Money, Credit and Banking;
+Macroeconomic Dynamics; Journal of Macroeconomics.</p>
 <p>Grants: ERC Consolidator Grant; Fondecyt National Projects
 Competition (Chile).</p>
 <h2 id="public-and-departmental-service">Public and Departmental
@@ -548,7 +576,7 @@ Co-organiser, Salento Macro Meetings.
 <dd>
 Co-organiser, UCL Economics PhD Alumni Conference.
 </dd>
-<dt>2024 –</dt>
+<dt>2024 – 2025</dt>
 <dd>
 Co-organiser, Doctoral Workshop on Quantitative Dynamic Economics.
 </dd>
@@ -560,8 +588,7 @@ Co-organiser, VIII MadMac Annual Conference.
 <h2 id="languages">Languages</h2>
 <p>Italian (native), English (fluent), Spanish (fluent).</p>
 <h2 id="personal">Personal</h2>
-<p>Born in Padova, Italy on June 6th, 1987. Italian and British
-citizen.</p>
+<p>Italian and British citizen.</p>
     </section>
   </main>
 </body>
